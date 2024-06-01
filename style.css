@@ -22,6 +22,7 @@ button {
   padding: 3px 10px;
   outline: none;
   border: 1px solid white;
+  background-color: rgb(201, 190, 190);
   transition: all 0.2s;
 }
 
@@ -294,15 +295,16 @@ footer ul li a i {
 
 /* start responsive style section */
 
-@media (max-width: 760px) {
+@media (max-width: 768px) {
+ 
   /* portfolio */
   #portfolio {
     & #item-box {
-      gap: 10px;
+      gap: 30px;
 
-      & .item:nth-child(1) {
+      /* & .item:nth-child(1) {
         display: none;
-      }
+      } */
 
       & .item:nth-child(2) {
         display: none;
